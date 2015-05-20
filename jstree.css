@@ -1,0 +1,52 @@
+div.jsTreeContainer
+{
+    width:48%;
+}
+
+div.jsTree
+{
+    border: 3px groove lightgray;
+    height:500px; 
+    width:inherit;
+    overflow:auto; 
+}
+
+div.jsTree_callback
+{
+    display:none;
+    vertical-align:middle;
+    width:auto;
+    padding:20px;
+}
+
+div.jsTree_callback table
+{
+    margin:10px;
+    border-spacing: 10px;
+}
+
+div.jsTree_callback table th
+{
+    text-align:right;
+    background-color:gray;
+}
+
+div.jsTree_callback td.jsTree_callback_nodo
+{
+    text-align:left;
+    background-color:lightgray;
+    width:auto;
+}
+
+div.jsTree_callback .jsTree_callback_botones
+{
+    text-align:center;
+}
+
+div.jsTree_callback td.jsTree_callback_nodo, div.jsTree_callback table th
+{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
